@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bc"
+    tools:context=".fragments.Fragment3">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="326dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bc_user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/ibold"
+        android:text="Arka Narendra"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+    android:id="@+id/lmenu"
+    android:layout_width="18dp"
+    android:layout_height="18dp"
+    android:layout_marginStart="8dp"
+    android:src="@drawable/lmenu"
+    app:layout_constraintBottom_toBottomOf="@+id/textView2"
+    app:layout_constraintStart_toEndOf="@+id/textView2"
+    app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/muleh"
+        android:layout_width="18dp"
+        android:layout_marginStart="10sp"
+        android:layout_height="18dp"
+        android:src="@drawable/mulehh"
+        app:layout_constraintBottom_toBottomOf="@+id/lmenu"
+        app:layout_constraintStart_toEndOf="@+id/lmenu"
+        app:layout_constraintTop_toTopOf="@+id/lmenu" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/iregular"
+        android:text="@string/desc"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58sp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="260dp"
+        android:fontFamily="@font/isemib"
+        android:text="Our Feature"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <LinearLayout
+        android:id="@+id/profile_details"
+        android:layout_width="336dp"
+        android:layout_height="145sp"
+        android:layout_marginStart="42sp"
+        android:layout_marginTop="14sp"
+        android:layout_marginEnd="42sp"
+        android:background="@drawable/aboutme"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <TextView
+            android:id="@+id/bangundatar"
+            android:layout_width="150sp"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ibold"
+            android:text="Football List"/>
+
+        <TextView
+            android:id="@+id/bangunruang"
+            android:layout_width="150sp"
+            android:layout_marginStart="30sp"
+            android:layout_height="200dp"
+            android:textColor="@color/black"
+            android:text="League List"
+            android:fontFamily="@font/ibold"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

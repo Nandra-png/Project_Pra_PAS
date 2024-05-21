@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Renapp</string>
+    <string name="app_welcome">Welcome to <b>Rendra\'s App</b>, Best App for <b>Math</b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="desc">My name is Maulana Arka Narendra, My hobbies are Programing and playing basketball, and sometimes I draw and make attractive designs.</string>
+</resources>
